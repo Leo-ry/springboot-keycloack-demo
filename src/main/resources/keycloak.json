@@ -1,0 +1,10 @@
+{
+  "realm": "Leona",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "leonaapp1",
+  "credentials": {
+    "secret": "RPwMQoWSvuluyVH6Oilltvn11ePBptyC"
+  },
+  "confidential-port": 0
+}

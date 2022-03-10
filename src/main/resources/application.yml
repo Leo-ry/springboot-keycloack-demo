@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: keycloak-service
+  main:
+    allow-circular-references: true
+  profiles:
+    active:
+    - local
+
+server:
+  port: 8081
+
+keycloak:
+  realm: Leona
+  resource: leonaapp1
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: none
+  public-client: false
+  credentials:
+    secret: RPwMQoWSvuluyVH6Oilltvn11ePBptyC
